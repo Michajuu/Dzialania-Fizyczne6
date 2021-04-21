@@ -1,0 +1,119 @@
+body {
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+    background-image: url("bg.jfif");
+    background-attachment: fixed;
+    color: white;
+  }
+main {
+    margin: 30px auto 30px auto;
+    width: 80%;
+    height: 544px;
+  }
+#naglowek {
+    pointer-events: none;
+    font-weight: 750;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    height: 60px;
+    font-size: 40px;
+    background-color: gray;
+    color: black;
+  }
+article {
+    width: 100%;
+    height: 90%;
+  }
+.br {
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+section:hover {
+    transform: scale(1.2);
+  }
+section {
+    
+    transition: 0.4s;
+    border-radius: 20px;
+    width: 28%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    transform: scale(1);
+  }
+  .section3 {
+    
+    border-radius: 20px;
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-size: 45px;
+    padding-bottom: 10px; 
+  }
+.section2 {
+    transition: 0.4s;
+    border-radius: 20px;
+    width:70%;
+    height: 100%;
+    background-color: #730d73;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 60px;
+}
+
+img {
+    transition: 0.3s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+  }
+.tytul {
+    font-size: 1vw;
+    color: black;
+    font-weight: 700;
+    opacity: none;
+  }
+h1 {
+    font-size: 2vw;
+    color: white;
+    font-weight: 700;
+    opacity: none;
+}
+input {
+  border: none;
+  text-align: center;
+  font-size: 45px;
+  max-width: 90px;
+  min-width: 50px;
+  height: 70px;
+  outline: none;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
